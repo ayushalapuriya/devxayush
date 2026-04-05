@@ -20,47 +20,6 @@ A modern, responsive portfolio website built with React and Framer Motion, showc
 - **React Icons** - Popular icon library
 - **Tailwind CSS** - Utility-first CSS framework
 
-## 📦 Installation & Setup
-
-### Prerequisites
-
-- Node.js (v16 or higher)
-- npm or yarn
-
-### Installation Steps
-
-1. **Clone the repository**
-   ```bash
-   git clone https://github.com/ayushalapuriya/portfolio.git
-   cd portfolio
-   ```
-
-2. **Navigate to frontend directory**
-   ```bash
-   cd frontend
-   ```
-
-3. **Install dependencies**
-   ```bash
-   npm install
-   ```
-
-4. **Add Certificate Images**
-   ```bash
-   mkdir -p public/assets/images
-   # Add your certificate images to public/assets/images/
-   # - w3elites-internship.jpg
-   # - java-certificate.jpeg
-   # - data-science-workshop.jpeg
-   # - genai-course.jpeg
-   # - adobe-hackathon.jpeg
-   ```
-
-5. **Run development server**
-   ```bash
-   npm run dev
-   ```
-   The app will open at `http://localhost:5173`
 
 ## 📂 Project Structure
 
@@ -197,7 +156,7 @@ This project is open source and available under the [MIT License](LICENSE).
 
 - Email: alapuriya0@gmail.com
 - Phone: +91 8058452975
-- LinkedIn: [Your LinkedIn Profile]
+- LinkedIn: https://www.linkedin.com/in/ayush-alapuriya-a4b3132b1/
 - GitHub: https://github.com/ayushalapuriya
 
 ---
