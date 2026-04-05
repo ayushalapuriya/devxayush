@@ -12,10 +12,6 @@ A modern, responsive portfolio website built with React and Framer Motion, showc
 - **Performance Optimized** - Fast loading and smooth scrolling
 - **Professional Contact Section** - Direct email and phone contact without form complexity
 
-## 🚀 Live Demo
-
-[View Portfolio](https://ayushalapuriya.github.io) *(Deployed on GitHub Pages)*
-
 ## 🛠️ Built With
 
 - **React 18** - Modern JavaScript library for building user interfaces
