@@ -212,3 +212,93 @@
     font-size: 1.25rem;
   }
 }
+
+/* More Projects Button Styling */
+.more-projects-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 3rem;
+  padding: 2rem 0;
+}
+
+.more-projects-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.75rem;
+  padding: 1rem 2rem;
+  background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
+  color: white;
+  text-decoration: none;
+  border-radius: 50px;
+  font-weight: 600;
+  font-size: 1.1rem;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 15px rgba(99, 102, 241, 0.3);
+  position: relative;
+  overflow: hidden;
+}
+
+.more-projects-btn::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.2), transparent);
+  transition: left 0.5s ease;
+}
+
+.more-projects-btn:hover::before {
+  left: 100%;
+}
+
+.more-projects-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 25px rgba(99, 102, 241, 0.4);
+  background: linear-gradient(135deg, var(--secondary-color), var(--primary-color));
+}
+
+.more-projects-btn:active {
+  transform: translateY(0);
+}
+
+.github-icon,
+.external-icon {
+  font-size: 1.2rem;
+  transition: transform 0.3s ease;
+}
+
+.more-projects-btn:hover .github-icon {
+  transform: rotate(10deg);
+}
+
+.more-projects-btn:hover .external-icon {
+  transform: translateX(2px);
+}
+
+/* Responsive for More Projects Button */
+@media (max-width: 768px) {
+  .more-projects-btn {
+    padding: 0.875rem 1.5rem;
+    font-size: 1rem;
+  }
+  
+  .github-icon,
+  .external-icon {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .more-projects-container {
+    margin-top: 2rem;
+    padding: 1.5rem 0;
+  }
+  
+  .more-projects-btn {
+    padding: 0.75rem 1.25rem;
+    font-size: 0.95rem;
+    gap: 0.5rem;
+  }
+}

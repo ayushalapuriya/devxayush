@@ -2,7 +2,7 @@ import React from 'react';
 import { motion } from 'framer-motion';
 import { FaGithub, FaLinkedin, FaEnvelope, FaHeart } from 'react-icons/fa';
 import { SiLeetcode } from 'react-icons/si';
-import './Footer.css';
+import '../css/Footer.css';
 
 const Footer = () => {
   const socialLinks = [
@@ -106,7 +106,7 @@ const Footer = () => {
           transition={{ duration: 0.6, delay: 0.3 }}
         >
           <p className="footer-copyright">
-            © {new Date().getFullYear()} Ayush Alapuriya. Built with <FaHeart className="heart-icon" /> using React & Framer Motion
+            © {new Date().getFullYear()} Ayush Alapuriya. All Rights Reserved.
           </p>
           <button className="scroll-to-top" onClick={scrollToTop} aria-label="Scroll to top">
             ↑

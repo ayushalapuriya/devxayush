@@ -1,27 +1,28 @@
 # Ayush Alapuriya - Professional Portfolio
 
-A modern, responsive portfolio website built with React and Framer Motion, showcasing my skills, projects, and experience as a Full-Stack Developer.
+A modern, responsive portfolio website built with React and Framer Motion, showcasing my skills, projects, and experience as a Full-Stack Developer & AI Engineer.
 
 ## 🌟 Features
 
 - **Modern Dark Theme** - Sleek dark design with blue/purple gradient accents
 - **Smooth Animations** - Powered by Framer Motion for seamless user experience
 - **Fully Responsive** - Optimized for desktop, tablet, and mobile devices
-- **Interactive Contact Form** - EmailJS integration for direct communication
-- **Project Showcase** - Detailed project cards with filtering functionality
+- **Interactive Certificate Viewer** - Modal-based certificate display with error handling
+- **Project Showcase** - Detailed project cards with filtering and GitHub integration
 - **Performance Optimized** - Fast loading and smooth scrolling
+- **Professional Contact Section** - Direct email and phone contact without form complexity
 
 ## 🚀 Live Demo
 
-[View Portfolio](#) *(Add your deployed URL here)*
+[View Portfolio](https://ayushalapuriya.github.io) *(Deployed on GitHub Pages)*
 
 ## 🛠️ Built With
 
 - **React 18** - Modern JavaScript library for building user interfaces
 - **Vite** - Next-generation frontend tooling
 - **Framer Motion** - Animation library for React
-- **EmailJS** - Email service for contact form
 - **React Icons** - Popular icon library
+- **Tailwind CSS** - Utility-first CSS framework
 
 ## 📦 Installation & Setup
 
@@ -34,59 +35,62 @@ A modern, responsive portfolio website built with React and Framer Motion, showc
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/YOUR_USERNAME/portfolio.git
+   git clone https://github.com/ayushalapuriya/portfolio.git
    cd portfolio
    ```
 
-2. **Install dependencies**
+2. **Navigate to frontend directory**
+   ```bash
+   cd frontend
+   ```
+
+3. **Install dependencies**
    ```bash
    npm install
    ```
 
-3. **Configure EmailJS** (for contact form)
-   - Sign up at [EmailJS.com](https://www.emailjs.com/)
-   - Create a service, template, and get your Public Key
-   - Update `src/components/Contact.jsx` with your credentials:
-     ```javascript
-     const serviceID = 'YOUR_SERVICE_ID';
-     const templateID = 'YOUR_TEMPLATE_ID';
-     const userID = 'YOUR_PUBLIC_KEY';
-     ```
-
-4. **Update Personal Information**
-   - Update social media links in `src/components/Hero.jsx` and `src/components/Footer.jsx`
-   - Replace `YOUR_GITHUB_USERNAME`, `YOUR_LINKEDIN`, `YOUR_LEETCODE` with your actual usernames
-   - Update project GitHub links in `src/components/Projects.jsx`
+4. **Add Certificate Images**
+   ```bash
+   mkdir -p public/assets/images
+   # Add your certificate images to public/assets/images/
+   # - w3elites-internship.jpg
+   # - java-certificate.jpeg
+   # - data-science-workshop.jpeg
+   # - genai-course.jpeg
+   # - adobe-hackathon.jpeg
+   ```
 
 5. **Run development server**
    ```bash
    npm run dev
    ```
-   The app will open at `http://localhost:3000`
+   The app will open at `http://localhost:5173`
 
 ## 📂 Project Structure
 
 ```
 portfolio/
-├── public/
-├── src/
-│   ├── components/
-│   │   ├── Navbar.jsx
-│   │   ├── Hero.jsx
-│   │   ├── About.jsx
-│   │   ├── Skills.jsx
-│   │   ├── Projects.jsx
-│   │   ├── Experience.jsx
-│   │   ├── Achievements.jsx
-│   │   ├── Contact.jsx
-│   │   └── Footer.jsx
-│   ├── App.jsx
-│   ├── App.css
-│   ├── index.css
-│   └── main.jsx
-├── index.html
-├── package.json
-├── vite.config.js
+├── frontend/
+│   ├── public/
+│   │   └── assets/
+│   │       └── images/          # Certificate images
+│   ├── src/
+│   │   ├── components/
+│   │   │   ├── Navbar.jsx       # Navigation with smooth scroll
+│   │   │   ├── Hero.jsx          # Animated introduction
+│   │   │   ├── About.jsx         # Professional about section
+│   │   │   ├── Skills.jsx        # Technical skills with icons
+│   │   │   ├── Projects.jsx      # Project showcase with filtering
+│   │   │   ├── Experience.jsx    # Work experience timeline
+│   │   │   ├── Certifications.jsx # Certificate viewer modal
+│   │   │   ├── Achievements.jsx  # Hackathon wins and recognition
+│   │   │   ├── Contact.jsx      # Direct contact information
+│   │   │   └── Footer.jsx        # Social links and navigation
+│   │   ├── css/                  # Component-specific styles
+│   │   ├── App.jsx              # Main app component
+│   │   └── main.jsx             # App entry point
+│   ├── package.json
+│   └── vite.config.js
 └── README.md
 ```
 
@@ -106,57 +110,86 @@ Edit color variables in `src/index.css`:
 }
 ```
 
-### Content
+### Content Updates
 
 - **Hero Section**: Edit `src/components/Hero.jsx`
 - **Projects**: Update project data in `src/components/Projects.jsx`
 - **Skills**: Modify skills array in `src/components/Skills.jsx`
 - **Experience**: Edit timeline data in `src/components/Experience.jsx`
+- **Certifications**: Update certificates in `src/components/Certifications.jsx`
 
 ## 📱 Sections
 
-1. **Hero** - Introduction with animated code window
-2. **About** - Personal background and statistics
-3. **Skills** - Technical and soft skills with icons
-4. **Projects** - Featured projects with filtering
+1. **Hero** - Introduction with animated code window and current role
+2. **About** - Professional introduction with education and training
+3. **Skills** - Technical skills categorized with real icons
+4. **Projects** - Featured projects with filtering and GitHub links
 5. **Experience** - Work experience and education timeline
-6. **Achievements** - Hackathons, certifications, and awards
-7. **Contact** - Contact form and information
-8. **Footer** - Social links and quick navigation
+6. **Certifications** - Interactive certificate viewer with modal display
+7. **Achievements** - Hackathon wins and competitive programming stats
+8. **Contact** - Professional contact information and services offered
+9. **Footer** - Social links and quick navigation
 
 ## 🚢 Deployment
 
 ### Build for Production
 
 ```bash
+cd frontend
 npm run build
 ```
 
 This creates an optimized build in the `dist` folder.
-
-### Deploy to Vercel
-
-1. Install Vercel CLI: `npm install -g vercel`
-2. Run: `vercel`
-3. Follow the prompts
-
-### Deploy to Netlify
-
-1. Build the project: `npm run build`
-2. Drag and drop the `dist` folder to [Netlify](https://app.netlify.com/drop)
 
 ### Deploy to GitHub Pages
 
 1. Install gh-pages: `npm install --save-dev gh-pages`
 2. Add to `package.json`:
    ```json
-   "homepage": "https://YOUR_USERNAME.github.io/portfolio",
+   "homepage": "https://ayushalapuriya.github.io/portfolio",
    "scripts": {
      "predeploy": "npm run build",
      "deploy": "gh-pages -d dist"
    }
    ```
 3. Run: `npm run deploy`
+
+### Deploy to Vercel
+
+1. Install Vercel CLI: `npm install -g vercel`
+2. Navigate to frontend directory: `cd frontend`
+3. Run: `vercel`
+4. Follow the prompts
+
+### Deploy to Netlify
+
+1. Build the project: `npm run build`
+2. Drag and drop the `dist` folder to [Netlify](https://app.netlify.com/drop)
+
+## 🎯 Key Features
+
+### Certificate Viewer
+- Modal-based certificate display
+- Error handling for missing images
+- Smooth animations with Framer Motion
+- Responsive image scaling
+
+### Project Showcase
+- Filter by technology stack
+- Direct GitHub repository links
+- "More Projects" button to GitHub profile
+- Hover effects and animations
+
+### Skills Section
+- Categorized skills (Frontend, Backend, CS Fundamentals)
+- Real technology icons (React, Node.js, Vercel, etc.)
+- Color-coded for better visibility
+
+### Contact Section
+- Direct email and phone contact
+- Professional services listing
+- No complex form handling
+- Mobile-friendly click-to-call/email
 
 ## 📄 License
 
@@ -166,10 +199,10 @@ This project is open source and available under the [MIT License](LICENSE).
 
 **Ayush Alapuriya**
 
-- Email: alapuriya04@gmail.com
+- Email: alapuriya0@gmail.com
 - Phone: +91 8058452975
-- LinkedIn: [Update with your LinkedIn URL]
-- GitHub: [Update with your GitHub URL]
+- LinkedIn: [Your LinkedIn Profile]
+- GitHub: https://github.com/ayushalapuriya
 
 ---
 

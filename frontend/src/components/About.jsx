@@ -1,12 +1,12 @@
-import React from 'react';
-import { motion } from 'framer-motion';
-import './About.css';
+import React from "react";
+import { motion } from "framer-motion";
+import "../css/About.css";
 
 const About = () => {
   return (
     <section className="section about-section" id="about">
       <div className="container">
-        <motion.h2 
+        <motion.h2
           className="section-title"
           initial={{ opacity: 0, y: 30 }}
           whileInView={{ opacity: 1, y: 0 }}
@@ -25,26 +25,23 @@ const About = () => {
             transition={{ duration: 0.6, delay: 0.2 }}
           >
             <p>
-              I'm a <strong>Computer Science student</strong> at GLA University, Mathura, graduating in May 2026. 
-              With a passion for building scalable and innovative solutions, I specialize in <strong>full-stack 
-              development</strong> using the <strong>MERN stack</strong> and integrating <strong>AI technologies </strong> 
-              to create intelligent applications.
+              Hello! I'm <strong>Ayush Alapuriya</strong>, a passionate <strong>B.Tech Computer Science student</strong> at <strong>GLA University, Mathura</strong> with a <strong>7.8/10 CGPA</strong>, graduating in June 2026.
+              My academic journey includes comprehensive coursework in <strong>Data Structures, DBMS, Operating Systems, OOP, and Computer Networks</strong>, providing me with a strong foundation in computer science fundamentals.
             </p>
             <p>
-              Through my internships at <strong>GrowIntern</strong> and <strong>W3Elites</strong>, I've gained 
-              hands-on experience in building responsive web interfaces, developing AI-powered features, and 
-              collaborating in fast-paced development environments. I've successfully delivered projects that 
-              improved user experience and system efficiency.
+              I've gained valuable industry exposure through impactful internships at <strong>GrowIntern</strong> as a Frontend Developer and <strong>W3Elites</strong> as a Full-Stack Intern. Currently, I'm undergoing <strong>enterprise training at Capgemini</strong> as an <strong>Analyst/A4</strong> in their 4-5 month Java Full Stack Program with Python & GenAI, where I'm learning enterprise-level development practices and modern technologies.
             </p>
             <p>
-              Beyond coding, I'm an active competitive programmer with achievements in multiple hackathons 
-              including <strong>IIT Guwahati Hackathon</strong> (Finalist) and <strong>Hack and Viz</strong> (5th Place). 
-              I've solved <strong>400+ problems on LeetCode</strong> and consistently participate in coding contests 
-              to sharpen my problem-solving skills.
+              I've built impressive full-stack applications including <strong>Rail Vista</strong> - a real-time rail journey assistant with sub-5-second emergency response, <strong>Wisebook</strong> - an AI-powered handwritten note digitization platform using Google Cloud Vision and ChatGPT APIs, and <strong>ProjectHub</strong> - a collaborative project management tool with real-time Socket.io integration and JWT authentication.
             </p>
             <p>
-              I'm currently seeking <strong>full-time opportunities</strong> and <strong>freelance projects</strong> where 
-              I can contribute to building impactful software solutions and continue growing as a developer.
+              My expertise spans across modern web technologies including <strong>React.js, Next.js, HTML5, CSS3, JavaScript</strong> for frontend, <strong>Node.js, Express.js, Spring Boot</strong> for backend, <strong>MongoDB, MySQL</strong> for databases, and specialized skills in <strong>Python, GenAI, Socket.io, JWT, Chart.js</strong> for advanced development.
+            </p>
+            <p>
+              I'm an active competitive programmer with remarkable hackathon performances including <strong>Finalist at Hacksagon IIIT Gwalior (2025)</strong> among 200+ teams, <strong>6th Place at Geekverse v1 Hackathon (2024)</strong>, <strong>4th Place at Hack and Viz Hackathon (2024)</strong>, and <strong>Contributor at EcoHack 2025</strong>. I've consistently honed my problem-solving skills by solving <strong>400+ LeetCode problems</strong> across 40+ coding contests.
+            </p>
+            <p>
+              I'm currently seeking <strong>challenging full-time opportunities</strong> and <strong>exciting freelance projects</strong> where I can contribute my diverse technical expertise, continuously learn cutting-edge technologies, quickly adapt to evolving requirements, collaborate with talented teams, drive meaningful innovation, and create transformative solutions that make a real impact in the world of technology.
             </p>
           </motion.div>
 

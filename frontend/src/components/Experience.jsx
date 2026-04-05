@@ -1,7 +1,7 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import { FaBriefcase, FaGraduationCap, FaCalendar, FaMapMarkerAlt } from 'react-icons/fa';
-import './Experience.css';
+import '../css/Experience.css';
 
 const Experience = () => {
   const experiences = [
@@ -12,9 +12,9 @@ const Experience = () => {
       location: 'Remote',
       period: 'Mar 2024 - Apr 2024',
       description: [
-        'Built responsive web interfaces using HTML, CSS, and JavaScript, improving page load speed by 15%',
-        'Managed multiple projects simultaneously, delivering all assignments ahead of deadlines',
-        'Adhered to modern coding standards and UI design principles'
+        'Engineered responsive web interfaces using HTML, CSS, and JavaScript, improving page load speed by 15%',
+        'Delivered 3+ production-grade UI projects adhering to modern UX/UI standards and best practices',
+        'Managed multiple projects simultaneously, delivering all assignments ahead of deadlines'
       ],
       tech: ['HTML', 'CSS', 'JavaScript']
     },
@@ -25,11 +25,25 @@ const Experience = () => {
       location: 'Remote',
       period: 'Jun 2024 - Jul 2024',
       description: [
-        'Developed full-stack applications including an AI-powered chatbot handling 50+ queries/day',
-        'Participated in daily scrums and implemented user feedback to enhance features',
+        'Developed full-stack applications including an AI-powered chatbot capable of handling 50+ user queries per day',
+        'Collaborated in agile scrums, implemented mentor feedback, and optimized system performance',
         'Gained hands-on experience with MERN stack and modern development practices'
       ],
       tech: ['React', 'Node.js', 'MongoDB', 'Express', 'AI Integration']
+    },
+    {
+      type: 'training',
+      title: 'Analyst/A4',
+      company: 'Capgemini',
+      location: 'GLA University, Mathura',
+      period: 'Dec 2025 - May 2026',
+      description: [
+        '4-5 months comprehensive Java Full Stack Program with Python & GenAI',
+        'Learning enterprise-level Java development with Spring Boot and microservices',
+        'Mastering Python programming and Generative AI integration',
+        'Building production-ready full-stack applications with modern tech stack'
+      ],
+      tech: ['Java', 'Spring Boot', 'Python', 'GenAI', 'Full-Stack Development']
     }
   ];
 
@@ -40,7 +54,7 @@ const Experience = () => {
       period: 'Expected June 2026',
       cgpa: '7.8/10',
       highlights: [
-        'Specialized in Full-Stack Development and AI Integration',
+        'Relevant Coursework: Data Structures, DBMS, Operating Systems, OOP, Computer Networks',
         'Active member of coding clubs and technical communities',
         'Consistent participation in hackathons and competitive programming'
       ]

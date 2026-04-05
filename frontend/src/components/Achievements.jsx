@@ -1,7 +1,7 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import { FaTrophy, FaMedal, FaCode, FaStar } from 'react-icons/fa';
-import './Achievements.css';
+import '../css/Achievements.css';
 
 const Achievements = () => {
   const achievements = [
@@ -43,14 +43,6 @@ const Achievements = () => {
     }
   ];
 
-  const certifications = [
-    'Responsive Web Design - freeCodeCamp (2024)',
-    'JavaScript Algorithms and Data Structures - freeCodeCamp (2024)',
-    'React - The Complete Guide - Udemy (2023)',
-    'Node.js, Express & MongoDB - The Complete Bootcamp - Udemy (2024)',
-    'Google Cloud Platform Fundamentals (2025)'
-  ];
-
   return (
     <section className="section achievements-section" id="achievements">
       <div className="container">
@@ -83,31 +75,6 @@ const Achievements = () => {
             </motion.div>
           ))}
         </div>
-
-        <motion.div
-          className="certifications-section"
-          initial={{ opacity: 0, y: 30 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true }}
-          transition={{ duration: 0.6 }}
-        >
-          <h3 className="subsection-title">Certifications & Learning</h3>
-          <div className="certifications-list">
-            {certifications.map((cert, index) => (
-              <motion.div
-                key={index}
-                className="certification-item"
-                initial={{ opacity: 0, x: -20 }}
-                whileInView={{ opacity: 1, x: 0 }}
-                viewport={{ once: true }}
-                transition={{ delay: index * 0.1 }}
-              >
-                <div className="cert-bullet"></div>
-                <span>{cert}</span>
-              </motion.div>
-            ))}
-          </div>
-        </motion.div>
 
         <motion.div
           className="competitive-stats"
