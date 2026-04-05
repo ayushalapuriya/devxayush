@@ -2,6 +2,22 @@
   width: 100%;
   min-height: 100vh;
   position: relative;
+  overflow-x: hidden;
+}
+
+/* Container Responsive */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1rem;
+  width: 100%;
+}
+
+/* Section Responsive */
+.section {
+  padding: 5rem 0;
+  width: 100%;
+  overflow-x: hidden;
 }
 
 /* Loader */
@@ -50,4 +66,63 @@
   background: var(--accent-secondary);
   bottom: -100px;
   right: -100px;
+}
+
+/* Mobile Responsive */
+@media (max-width: 1200px) {
+  .container {
+    max-width: 100%;
+    padding: 0 2rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .container {
+    padding: 0 1rem;
+  }
+  
+  .section {
+    padding: 3rem 0;
+  }
+  
+  .bg-gradient-blur {
+    width: 300px;
+    height: 300px;
+  }
+}
+
+@media (max-width: 480px) {
+  .container {
+    padding: 0 0.75rem;
+  }
+  
+  .section {
+    padding: 2rem 0;
+  }
+  
+  .bg-gradient-blur {
+    width: 200px;
+    height: 200px;
+  }
+}
+
+/* Prevent horizontal scroll */
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  overflow-x: hidden;
+  max-width: 100%;
+}
+
+img, video {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Fix for mobile viewport */
+@viewport {
+  width: device-width;
+  initial-scale: 1.0;
 }
