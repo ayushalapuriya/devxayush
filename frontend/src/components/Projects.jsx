@@ -31,6 +31,7 @@ const Projects = () => {
       ],
       tech: ['React.js', 'Node.js', 'Express.js', 'MongoDB', 'REST APIs', 'WebSockets'],
       impact: 'Enhanced travel experience for thousands of daily commuters',
+      github: 'https://github.com/ayushalapuriya/RailVista',
       live: 'https://railvista.netlify.app/'
     },
     {
