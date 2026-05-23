@@ -87,7 +87,7 @@ const Footer = () => {
           >
             <h4 className="footer-section-title">Get In Touch</h4>
             <div className="footer-contact">
-              <p>📧 alapuriya04@gmail.com</p>
+              <p>📧 alapuriya0@gmail.com</p>
               <p>📱 +91 8058452975</p>
               <p>📍 Agra, India</p>
             </div>
