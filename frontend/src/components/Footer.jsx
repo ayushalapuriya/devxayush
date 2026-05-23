@@ -6,10 +6,10 @@ import '../css/Footer.css';
 
 const Footer = () => {
   const socialLinks = [
-    { icon: <FaGithub />, url: 'https://github.com/YOUR_GITHUB_USERNAME', label: 'GitHub' },
-    { icon: <FaLinkedin />, url: 'https://www.linkedin.com/in/YOUR_LINKEDIN', label: 'LinkedIn' },
-    { icon: <SiLeetcode />, url: 'https://leetcode.com/YOUR_LEETCODE', label: 'LeetCode' },
-    { icon: <FaEnvelope />, url: 'mailto:alapuriya04@gmail.com', label: 'Email' }
+    { icon: <FaGithub />, url: 'https://github.com/ayushalapuriya', label: 'GitHub' },
+    { icon: <FaLinkedin />, url: 'https://www.linkedin.com/in/ayush-alapuriya-a4b3132b1/', label: 'LinkedIn' },
+    { icon: <SiLeetcode />, url: 'https://leetcode.com/its_alapuriya', label: 'LeetCode' },
+    { icon: <FaEnvelope />, url: 'mailto:alapuriya0@gmail.com', label: 'Email' }
   ];
 
   const quickLinks = [
