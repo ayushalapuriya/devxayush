@@ -41,6 +41,13 @@ const Achievements = () => {
       description: 'Regular participation in competitive programming platforms',
       color: '#6366f1'
     }
+    ,
+    {
+      icon: <FaStar />,
+      title: 'Led - International Ideathon (2026)',
+      description: 'Led International Ideathon 2026 with participation from 391+ universities across 7 countries, scaled through 100+ campus ambassadors, and sponsored by Featherless AI (USA)',
+      color: '#10B981'
+    }
   ];
 
   return (
