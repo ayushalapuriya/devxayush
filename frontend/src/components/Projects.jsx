@@ -67,7 +67,7 @@ const Projects = () => {
       tech: ['React.js', 'Node.js', 'MongoDB', 'Socket.io', 'JWT', 'Chart.js'],
       impact: 'Streamlined project management for distributed teams',
       github: 'https://github.com/ayushalapuriya/projecthub',
-      live: '#'
+      live: 'https://projecthub-5mz8.onrender.com'
     },
     {
     id: 4,
