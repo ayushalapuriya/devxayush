@@ -50,6 +50,8 @@ const Projects = () => {
       ],
       tech: ['MERN Stack', 'OpenAI API', 'Google Cloud Vision', 'Express'],
       impact: '90%+ OCR accuracy with intelligent summarization',
+      github: 'https://github.com/ayushalapuriya/Wisebook',
+      live: 'https://wisebook-kappa.vercel.app/'
     },
     {
       id: 3,
