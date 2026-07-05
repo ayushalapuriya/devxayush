@@ -36,7 +36,7 @@ const Projects = () => {
     },
     {
       id: 2,
-      title: 'Wisebook - AI Note Platform',
+      title: 'Wisebook',
       category: 'ai-powered',
       period: 'Jan 2025 - Feb 2025',
       description: 'Converts handwritten notes into searchable, well-structured digital content using OCR and AI-powered summarization.',
@@ -94,7 +94,44 @@ const Projects = () => {
     impact: 'Scalable platform supporting unlimited referral depth with automated commission distribution for multi-level marketing businesses',
     github: 'https://github.com/ayushalapuriya/ReferGrow',
     live: 'https://sambhariyamarketing.com/'
-  }
+  },
+  {
+  id: 5,
+  title: 'JobBuddy',
+  category: 'ai-powered',
+  period: 'Jun 2026 - Jul 2026',
+  description: 'Built an AI-powered job mentorship platform that helps users assess skills, generate personalized career roadmaps, track progress, prepare for interviews, and manage job applications.',
+  features: [
+    'Full-stack MERN-based job mentorship platform with authentication, protected routes, and personalized dashboards',
+    'Integrated Gemini-powered career roadmap generation with structured fallback support for reliable user flow',
+    'Built configurable skill assessments with MCQ scoring, subjective review support, reports, and assessment history',
+    'Created roadmap management with progress tracking, custom tasks, notes, status updates, analytics, and MongoDB persistence',
+    'Added career tools including job matching, skill gap analysis, career insights, interview coaching, and application tracking',
+    'Implemented JobBuddy Assistant chatbot with backend AI endpoint, Gemini/mock/fallback response handling, and real-time guidance'
+  ],
+  tech: ['React.js', 'Node.js', 'Express.js', 'MongoDB', 'Mongoose', 'Gemini API', 'REST APIs', 'Tailwind CSS'],
+  impact: 'Helped job seekers follow a structured career path through assessments, AI-generated roadmaps, progress tracking, and interview preparation'
+  },
+  {
+  id: 6,
+  title: 'ResQ',
+  category: 'web-app',
+  period: 'Jun 2026 - Jul 2026',
+  description: 'Built a real-time disaster alert and emergency help request platform that enables users to report emergencies with GPS location, images, urgency level, and disaster type while allowing admins and volunteers to coordinate rapid response.',
+  features: [
+    'Real-time MERN-based emergency response platform for disaster reporting and rescue coordination',
+    'Implemented JWT authentication with role-based access for users, admins, and volunteers',
+    'Emergency report submission with GPS coordinates, disaster type, description, urgency level, and image upload',
+    'Live Leaflet map dashboard showing emergency reports as location-based markers',
+    'Socket.io-powered real-time updates when new reports are submitted or statuses change',
+    'Admin workflow to verify, reject, forward, resolve, and prioritize emergency reports',
+    'Nearby report clustering to detect high-priority disaster zones when multiple similar reports come from the same area',
+    'Volunteer dashboard for viewing verified nearby emergency requests',
+    'Search and filtering by disaster type, status, urgency, and date'
+  ],
+  tech: ['React.js', 'Tailwind CSS', 'Node.js', 'Express.js', 'MongoDB', 'Mongoose', 'JWT', 'Socket.io', 'Cloudinary', 'Leaflet'],
+  impact: 'Improved emergency coordination by enabling faster disaster reporting, live situational awareness, and priority-based response management'
+}
   ];
 
   const categories = [

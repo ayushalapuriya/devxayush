@@ -51,8 +51,8 @@ const Experience = () => {
     {
       degree: 'B.Tech in Computer Science',
       institution: 'GLA University, Mathura',
-      period: 'Expected June 2026',
-      cgpa: '7.8/10',
+      period: 'May 2026',
+      cgpa: '7.7/10',
       highlights: [
         'Relevant Coursework: Data Structures, DBMS, Operating Systems, OOP, Computer Networks',
         'Active member of coding clubs and technical communities',

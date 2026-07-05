@@ -53,6 +53,22 @@ const Certifications = () => {
       icon: <FaPalette />,
       color: '#ef4444',
       certificateFile: '/assets/images/adobe-hackathon.jpeg'
+    },
+    {
+      id: 6,
+      title: 'Google AI Professional Certificate',
+      description: 'Earned the Google AI Professional Certificate on Coursera, mastering advanced prompt engineering, vibe coding, and data automation workflows (June 2026).',
+      icon: <FaBrain />,
+      color: '#4285F4',
+      certificateFile: '/assets/images/google-ai-certificate.jpg'
+    },
+    {
+      id: 7,
+      title: 'JioPC AI Foundation Course',
+      description: 'Completed JioPC AI Foundation Course in AI Basics & Prompt Engineering (2026)',
+      icon: <FaBrain />,
+      color: '#00A651',
+      certificateFile: '/assets/images/jiopc-ai-certificate.jpg'
     }
   ];
 

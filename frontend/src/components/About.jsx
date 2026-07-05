@@ -25,7 +25,7 @@ const About = () => {
             transition={{ duration: 0.6, delay: 0.2 }}
           >
             <p>
-              Hello! I'm <strong>Ayush Alapuriya</strong>, a passionate <strong>B.Tech Computer Science student</strong> at <strong>GLA University, Mathura</strong> with a <strong>7.8/10 CGPA</strong>, graduating in June 2026.
+              Hello! I'm <strong>Ayush Alapuriya</strong>, a passionate <strong>B.Tech Computer Science graduate</strong> from <strong>GLA University, Mathura</strong> with a <strong>7.7/10 CGPA</strong>, having completed my degree in May 2026.
               My academic journey includes comprehensive coursework in <strong>Data Structures, DBMS, Operating Systems, OOP, and Computer Networks</strong>, providing me with a strong foundation in computer science fundamentals.
             </p>
             <p>
