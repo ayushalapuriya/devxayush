@@ -7,6 +7,19 @@ const Experience = () => {
   const experiences = [
     {
       type: 'internship',
+      title: 'Java Backend Developer, Intern',
+      company: 'Paytm',
+      location: 'Noida, India',
+      period: 'Jul 2026 - Till Date',
+      description: [
+        'Contributed to real-world Paytm Payment Gateway workflows for Net Banking using Java, Spring Boot, and REST APIs, covering payment, refund, and status-enquiry transactions across partner banks',
+        'Implemented bank-facing request/response integrations and performed local and QA testing of end-to-end payment flows, validating transaction scenarios and integration fixes',
+        'Debugged payment failures using logs and end-to-end tracing; collaborated with partner banks and the Payment Gateway team to resolve integration issues and improve transaction reliability'
+      ],
+      tech: ['Java', 'Spring Boot', 'REST APIs', 'Payment Gateway', 'QA Testing']
+    },
+    {
+      type: 'internship',
       title: 'Frontend Developer Intern',
       company: 'GrowIntern',
       location: 'Remote',
