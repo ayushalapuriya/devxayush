@@ -6,7 +6,7 @@ import '../css/Experience.css';
 const Experience = () => {
   const experiences = [
     {
-      type: 'internship',
+      type: 'Experience',
       title: 'Java Backend Developer, Intern',
       company: 'Paytm',
       location: 'Noida, India',
@@ -19,17 +19,18 @@ const Experience = () => {
       tech: ['Java', 'Spring Boot', 'REST APIs', 'Payment Gateway', 'QA Testing']
     },
     {
-      type: 'internship',
-      title: 'Frontend Developer Intern',
-      company: 'GrowIntern',
-      location: 'Remote',
-      period: 'Mar 2024 - Apr 2024',
+      type: 'Experience',
+      title: 'Analyst/A4',
+      company: 'Capgemini',
+      location: 'GLA University, Mathura',
+      period: 'Dec 2025 - May 2026',
       description: [
-        'Engineered responsive web interfaces using HTML, CSS, and JavaScript, improving page load speed by 15%',
-        'Delivered 3+ production-grade UI projects adhering to modern UX/UI standards and best practices',
-        'Managed multiple projects simultaneously, delivering all assignments ahead of deadlines'
+        '4-5 months comprehensive Java Full Stack Program with Python & GenAI',
+        'Learning enterprise-level Java development with Spring Boot and microservices',
+        'Mastering Python programming and Generative AI integration',
+        'Building production-ready full-stack applications with modern tech stack'
       ],
-      tech: ['HTML', 'CSS', 'JavaScript']
+      tech: ['Java', 'Spring Boot', 'Python', 'GenAI', 'Full-Stack Development']
     },
     {
       type: 'internship',
@@ -45,18 +46,17 @@ const Experience = () => {
       tech: ['React', 'Node.js', 'MongoDB', 'Express', 'AI Integration']
     },
     {
-      type: 'training',
-      title: 'Analyst/A4',
-      company: 'Capgemini',
-      location: 'GLA University, Mathura',
-      period: 'Dec 2025 - May 2026',
+      type: 'internship',
+      title: 'Frontend Developer Intern',
+      company: 'GrowIntern',
+      location: 'Remote',
+      period: 'Mar 2024 - Apr 2024',
       description: [
-        '4-5 months comprehensive Java Full Stack Program with Python & GenAI',
-        'Learning enterprise-level Java development with Spring Boot and microservices',
-        'Mastering Python programming and Generative AI integration',
-        'Building production-ready full-stack applications with modern tech stack'
+        'Engineered responsive web interfaces using HTML, CSS, and JavaScript, improving page load speed by 15%',
+        'Delivered 3+ production-grade UI projects adhering to modern UX/UI standards and best practices',
+        'Managed multiple projects simultaneously, delivering all assignments ahead of deadlines'
       ],
-      tech: ['Java', 'Spring Boot', 'Python', 'GenAI', 'Full-Stack Development']
+      tech: ['HTML', 'CSS', 'JavaScript']
     }
   ];
 
