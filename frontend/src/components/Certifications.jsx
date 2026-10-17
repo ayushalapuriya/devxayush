@@ -78,7 +78,7 @@ const Certifications = () => {
       description: 'Earned the Google AI Professional Certificate on Coursera, mastering advanced prompt engineering, vibe coding, and data automation workflows (June 2026).',
       icon: <FaBrain />,
       color: '#4285F4',
-      certificateFile: '/assets/images/google-ai-certificate.jpg'
+      certificateFile: '/assets/images/google-ai-certificate.png'
     },
     {
       id: 7,
