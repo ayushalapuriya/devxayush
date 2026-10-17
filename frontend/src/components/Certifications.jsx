@@ -87,6 +87,14 @@ const Certifications = () => {
       icon: <FaBrain />,
       color: '#00A651',
       certificateFile: '/assets/images/jiopc-ai-certificate.jpg'
+    },
+    {
+      id: 8,
+      title: 'GenAI Powered Data Analytics Job Simulation',
+      description: 'Completed the Tata Group job simulation, applying generative AI and data analytics concepts to practical business-focused tasks.',
+      icon: <FaBrain />,
+      color: '#0f766e',
+      certificateFile: '/assets/images/tata-genai-data-analyst.png'
     }
   ];
 
@@ -123,12 +131,14 @@ const Certifications = () => {
 
               <p className="cert-description">{cert.description}</p>
 
-              <button 
-                className="view-cert-btn"
-                onClick={() => openCertificate(cert.certificateFile)}
-              >
-                View Certificate
-              </button>
+              {cert.certificateFile && (
+                <button 
+                  className="view-cert-btn"
+                  onClick={() => openCertificate(cert.certificateFile)}
+                >
+                  View Certificate
+                </button>
+              )}
             </motion.div>
           ))}
         </div>
