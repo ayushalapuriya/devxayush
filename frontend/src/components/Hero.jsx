@@ -83,10 +83,10 @@ const Hero = () => {
               animate={{ opacity: 1, y: 0 }}
               transition={{ delay: 0.5 }}
             >
-              B.Tech Computer Science student at GLA University with enterprise training from Capgemini. 
-              Passionate about building scalable full-stack solutions using MERN, Next.js, Spring Boot, 
-              and cutting-edge AI technologies. Specialized in creating intelligent applications 
-              that solve real-world problems with measurable impact.
+              B.Tech Computer Science graduate from GLA University with enterprise training fromCapgemini.
+              Currently working as a Java Backend Developer Intern at Paytm, building reliable payment
+              gateway integrations with Java, Spring Boot, and REST APIs. Passionate about scalable full-stack solutions and intelligent
+              applications that solve real-world problems with measurable impact.
             </motion.p>
 
             <motion.div

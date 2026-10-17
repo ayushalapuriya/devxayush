@@ -29,7 +29,10 @@ const About = () => {
               My academic journey includes comprehensive coursework in <strong>Data Structures, DBMS, Operating Systems, OOP, and Computer Networks</strong>, providing me with a strong foundation in computer science fundamentals.
             </p>
             <p>
-              I've gained valuable industry exposure through impactful internships at <strong>GrowIntern</strong> as a Frontend Developer and <strong>W3Elites</strong> as a Full-Stack Intern. Currently, I'm undergoing <strong>enterprise training at Capgemini</strong> as an <strong>Analyst/A4</strong> in their 4-5 month Java Full Stack Program with Python & GenAI, where I'm learning enterprise-level development practices and modern technologies.
+              I've gained valuable industry exposure through impactful internships at <strong>GrowIntern</strong> as a Frontend Developer and <strong>W3Elites</strong> as a Full-Stack Intern. I also completed <strong>enterprise training at Capgemini</strong> as an <strong>Analyst/A4</strong> in their Java Full Stack Program with Python & GenAI, developing a strong understanding of enterprise-level development practices and modern technologies.
+            </p>
+            <p>
+              Currently, I'm working at <strong>Paytm</strong> as a <strong>Java Backend Developer Intern</strong> in Noida, contributing to payment gateway workflows for Net Banking. My work includes building and testing bank-facing integrations with <strong>Java, Spring Boot, and REST APIs</strong> for payment, refund, and status-enquiry transactions, while debugging end-to-end issues to improve transaction reliability.
             </p>
             <p>
               I've built impressive full-stack applications including <strong>Rail Vista</strong> - a real-time rail journey assistant with sub-5-second emergency response, <strong>Wisebook</strong> - an AI-powered handwritten note digitization platform using Google Cloud Vision and ChatGPT APIs, and <strong>ProjectHub</strong> - a collaborative project management tool with real-time Socket.io integration and JWT authentication.
