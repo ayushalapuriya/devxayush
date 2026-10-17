@@ -8,7 +8,7 @@ const Achievements = () => {
     {
       icon: <FaTrophy />,
       title: 'Finalist - Hacksagon, IIIT Gwalior (2025)',
-      description: 'Selected among top teams from 200+ participants',
+      description: 'Selected among the top teams from 200+ teams',
       color: '#FFD700'
     },
     {

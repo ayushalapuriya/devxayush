@@ -3,7 +3,7 @@ import { motion } from 'framer-motion';
 
 import {
   FaReact, FaNodeJs, FaHtml5, FaCss3Alt, FaJs, FaGitAlt,
-  FaGithub, FaJava, FaDocker, FaDatabase, FaNetworkWired, FaCogs, FaProjectDiagram
+  FaGithub, FaJava, FaDocker, FaDatabase, FaNetworkWired, FaCogs, FaProjectDiagram, FaCode
 } from 'react-icons/fa';
 
 import {
@@ -40,6 +40,7 @@ const Skills = () => {
         { name: 'Node.js', icon: <FaNodeJs />, color: '#339933' },
         { name: 'Express.js', icon: <SiExpress />, color: '#333333' },
         { name: 'Spring Boot', icon: <SiSpringboot />, color: '#6DB33F' },
+        { name: 'Microservices', icon: <FaProjectDiagram />, color: '#6DB33F' },
         { name: 'REST APIs', icon: <FaNodeJs />, color: '#68A063' },
         { name: 'JWT Auth', icon: <SiJsonwebtokens />, color: '#333333' },
         { name: 'OAuth (Basics)', icon: <SiAuth0 />, color: '#EA4335' },
@@ -51,7 +52,8 @@ const Skills = () => {
       title: 'Databases',
       skills: [
         { name: 'MongoDB', icon: <SiMongodb />, color: '#47A248' },
-        { name: 'MySQL', icon: <SiMysql />, color: '#4479A1' }
+        { name: 'MySQL', icon: <SiMysql />, color: '#4479A1' },
+        { name: 'SQL', icon: <SiMysql />, color: '#4479A1' }
       ]
     },
 
@@ -73,6 +75,7 @@ const Skills = () => {
         { name: 'Git', icon: <FaGitAlt />, color: '#F05032' },
         { name: 'GitHub', icon: <FaGithub />, color: '#333333' },
         { name: 'Postman', icon: <SiPostman />, color: '#FF6C37' },
+        { name: 'VS Code', icon: <FaCode />, color: '#007ACC' },
         { name: 'Vercel', icon: <SiVercel />, color: '#333333' },
         { name: 'Netlify', icon: <SiNetlify />, color: '#00C7B7' },
         { name: 'Docker (Basic)', icon: <FaDocker />, color: '#2496ED' },

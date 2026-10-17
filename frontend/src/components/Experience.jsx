@@ -25,10 +25,10 @@ const Experience = () => {
       location: 'GLA University, Mathura',
       period: 'Dec 2025 - May 2026',
       description: [
-        '4-5 months comprehensive Java Full Stack Program with Python & GenAI',
-        'Learning enterprise-level Java development with Spring Boot and microservices',
-        'Mastering Python programming and Generative AI integration',
-        'Building production-ready full-stack applications with modern tech stack'
+        'Completed a comprehensive Java Full Stack program with Python and Generative AI',
+        'Developed expertise in Java, Spring Boot, OOP, Collections, Streams, Exception Handling, Spring Boot, Microservices, and REST APIs',
+        'Designed and developed microservice-based applications with database integration, implementing modular backend services and inter-service communication using Spring Boot',
+        'Collaborated with mentors through regular technical discussions, code reviews, and evaluations while applying problem-solving and software development practices'
       ],
       tech: ['Java', 'Spring Boot', 'Python', 'GenAI', 'Full-Stack Development']
     },

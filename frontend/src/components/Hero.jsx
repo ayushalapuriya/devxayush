@@ -83,7 +83,7 @@ const Hero = () => {
               animate={{ opacity: 1, y: 0 }}
               transition={{ delay: 0.5 }}
             >
-              B.Tech Computer Science graduate from GLA University with enterprise training fromCapgemini.
+              B.Tech Computer Science graduate from GLA University with enterprise training from Capgemini.
               Currently working as a Java Backend Developer Intern at Paytm, building reliable payment
               gateway integrations with Java, Spring Boot, and REST APIs. Passionate about scalable full-stack solutions and intelligent
               applications that solve real-world problems with measurable impact.
@@ -152,10 +152,10 @@ const Hero = () => {
                   <code>
                     {`const developer = {
   name: "Ayush Alapuriya",
-  role: "Full-Stack Developer & AI Engineer",
-  skills: ["React", "CSS", "Java", "AI"],
-  passion: "Innovation & Impact",
-  status: "Open to opportunities"
+  role: "Java Backend Developer & Full-Stack Engineer",
+  skills: ["Java", "Spring Boot", "REST APIs", "React", "Node.js", "Python", "GenAI"],
+  passion: "Building Scalable & Intelligent Solutions",
+  status: "Open to New Challenges"
 };
 
 export default developer;`}
