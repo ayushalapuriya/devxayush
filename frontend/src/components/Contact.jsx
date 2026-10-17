@@ -64,11 +64,11 @@ const Contact = () => {
         `Name: ${formData.name}\nEmail: ${formData.email}\n\nMessage:\n${formData.message}`
       );
       
-      window.location.href = `mailto:alapuriya0@gmail.com?subject=${subject}&body=${body}`;
+      window.location.href = `mailto:devxayush.me@gmail.com?subject=${subject}&body=${body}`;
       
       setFormStatus({
         type: 'success',
-        message: 'Opening your email client... You can also email directly at alapuriya0@gmail.com'
+        message: 'Opening your email client... You can also email directly at devxayush.me@gmail.com'
       });
       
       // Reset form
@@ -81,7 +81,7 @@ const Contact = () => {
     } catch (error) {
       setFormStatus({
         type: 'error',
-        message: 'Something went wrong. Please email directly at alapuriya0@gmail.com'
+        message: 'Something went wrong. Please email directly at devxayush.me@gmail.com'
       });
     } finally {
       setIsSubmitting(false);
@@ -101,8 +101,8 @@ const Contact = () => {
     {
       icon: <FaEnvelope />,
       title: 'Email',
-      value: 'alapuriya0@gmail.com',
-      link: 'mailto:alapuriya0@gmail.com'
+      value: 'devxayush.me@gmail.com',
+      link: 'mailto:devxayush.me@gmail.com'
     },
     {
       icon: <FaPhone />,

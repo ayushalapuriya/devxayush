@@ -30,7 +30,7 @@ const Hero = () => {
 
     {
       icon: <FaEnvelope />,
-      url: "mailto:alapuriya0@gmail.com",
+      url: "mailto:devxayush.me@gmail.com",
       label: "Email",
     },
   ];

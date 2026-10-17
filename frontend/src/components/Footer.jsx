@@ -9,7 +9,7 @@ const Footer = () => {
     { icon: <FaGithub />, url: 'https://github.com/ayushalapuriya', label: 'GitHub' },
     { icon: <FaLinkedin />, url: 'https://www.linkedin.com/in/ayush-alapuriya-a4b3132b1/', label: 'LinkedIn' },
     { icon: <SiLeetcode />, url: 'https://leetcode.com/its_alapuriya', label: 'LeetCode' },
-    { icon: <FaEnvelope />, url: 'mailto:alapuriya0@gmail.com', label: 'Email' }
+    { icon: <FaEnvelope />, url: 'mailto:devxayush.me@gmail.com', label: 'Email' }
   ];
 
   const quickLinks = [
@@ -87,7 +87,7 @@ const Footer = () => {
           >
             <h4 className="footer-section-title">Get In Touch</h4>
             <div className="footer-contact">
-              <p>📧 alapuriya0@gmail.com</p>
+              <p>📧 devxayush.me@gmail.com</p>
               <p>📱 +91 8058452975</p>
               <p>📍 Agra, India</p>
             </div>

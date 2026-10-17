@@ -154,7 +154,7 @@ This project is open source and available under the [MIT License](LICENSE).
 
 **Ayush Alapuriya**
 
-- Email: alapuriya0@gmail.com
+- Email: devxayush.me@gmail.com
 - Phone: +91 8058452975
 - LinkedIn: https://www.linkedin.com/in/ayush-alapuriya-a4b3132b1/
 - GitHub: https://github.com/ayushalapuriya
