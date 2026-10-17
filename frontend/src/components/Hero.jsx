@@ -2,7 +2,7 @@ import React from "react";
 
 import { motion } from "framer-motion";
 
-import { FaGithub, FaLinkedin, FaEnvelope, FaArrowDown } from "react-icons/fa";
+import { FaGithub, FaLinkedin, FaEnvelope, FaArrowDown, FaFilePdf } from "react-icons/fa";
 
 import { SiLeetcode } from "react-icons/si";
 
@@ -101,6 +101,15 @@ const Hero = () => {
 
               <a href="#contact" className="btn btn-secondary">
                 Get In Touch
+              </a>
+
+              <a
+                href="/assets/resume.pdf"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="btn btn-secondary"
+              >
+                <FaFilePdf /> View Resume
               </a>
             </motion.div>
 
